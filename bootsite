@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <style type="text/css">
+   body{
+      background-color:rgb(50,50,50);
+      color:white
+   }
+   a{
+      color:rgb(210,210,255)
+   }
+   img{
+      margin: 15px 15px 15px 15px
+   }
+   hr{
+      border-top: 1px solid gray;
+   }
+   .infotd{
+     vertical-align:top
+   }
+ </style>
+</head>
+
+<body style="background-color:rgb(50,50,50); color:white">
+<table width= 1000px>
+  <tr>
+    <td class="infotd">
+      <h3>Andrey Matskul</h3>
+      <p> I am student in City University of London, I have expirience in programming using "Python" and "HTML5".
+          During my expirience in City I developed couple of skills such as: 
+          Problem solving, creative thinking and teamwork. Currently I study new programing language - Java. My newest Java project is "Hit your friendly fly".</p> 
+    </td>
+    <td>
+	<img src="myphoto.jpg" width=300px></img>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+	<hr>
+    </td>
+  </tr>
+
+ <tr>
+  <td class="infotd">
+    <h3>Bootcamp 2021: Hit Your friendly fly</h3>
+    <p>
+	My first programming project, concluding the 2 week Programming Bootcamp at 
+	City (2021). This Processing project demonstrays good understanding of variables, if functions, noice function and usage of mouse.  I created 2d game where player controls
+a slipper and suppose to hit a fly. In the game I implemented detection of wheather slipper hit a fly or not, used random to determine movement of fly, 
+created title screen, score counter and many other things. Big challenge for me was creation of animation form slipper when it hits the table and debugging game
+(restricting abuse of button mashing and so on). 
+    </p>
+
+    <p>
+      Check out the code on Github: https://github.com/AndreyMatskul/adck907.git
+    </p>
+  <td>
+	<video width="429" height="200" controls>
+	<source src="bootcampproject.mkv" type="video/mkv">
+	</video>
+  <td>
+  </td>
+<tr>
+ <td colspan = 2 align=center>
+	<img src="BootProject(2).png" width="285px">
+	<img src="BootProject(1).png" width="265px">
+	<img src="BootProject(0).png" width="255px">
+ </td>
+</tr>
+ </tr>
+</table>
+</body>
+</html>
